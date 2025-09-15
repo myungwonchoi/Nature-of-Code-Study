@@ -1,8 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow: hidden; /* 스크롤바 방지 */
+  background-color: #000022; /* 기본 배경색 (혹시 캔버스 로드 전 깜빡임 방지) */
 }
-
 canvas {
-  display: block;
+  display: block; /* 캔버스 하단의 미세한 여백 제거 */
 }
