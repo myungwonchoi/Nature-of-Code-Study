@@ -9,8 +9,8 @@ class Vehicle {
     // All the usual stuff
     this.position = createVector(x, y);
     this.r = 6;
-    this.maxspeed = 6; // Maximum speed (증가: 3 → 6)
-    this.maxforce = 0.4; // Maximum steering force (증가: 0.2 → 0.4)
+    this.maxspeed = 3; // Maximum speed
+    this.maxforce = 0.2; // Maximum steering force
     this.acceleration = createVector(0, 0);
     this.velocity = createVector(0, 0);
   }

@@ -40,17 +40,6 @@ function draw() {
     v.show();
   }
   
-  // 마우스 포인터 위치에 투명한 빨간색 원 그리기
-  fill(255, 0, 0, 100); // 빨간색, 투명도 100/255
-  stroke(255, 0, 0, 150); // 빨간색 테두리, 투명도 150/255
-  strokeWeight(2);
-  circle(mouseX, mouseY, 40); // 반지름 20px의 원
-  
-  // 중앙에 작은 점 추가 (정확한 마우스 위치 표시)
-  fill(255, 0, 0, 200);
-  noStroke();
-  circle(mouseX, mouseY, 6);
-  
   // 슬라이더 라벨 표시
   fill(0);
   noStroke();
